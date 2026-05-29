@@ -1,6 +1,9 @@
 SKILL.md
 README.md
+README.zh-CN.md
+ONE_LINE_PROMPT.zh-CN.txt
 templates/audit_request_prompt.md
+templates/audit_request_prompt.zh-CN.md
 templates/audit_report_template.md
 templates/subagent_prompts.md
 templates/patch_gate_prompts.md
