@@ -1,0 +1,11 @@
+SKILL.md
+README.md
+templates/audit_request_prompt.md
+templates/audit_report_template.md
+templates/subagent_prompts.md
+templates/patch_gate_prompts.md
+checklists/context_sources.md
+checklists/security_redaction.md
+scripts/collect_ai_coding_context.sh
+scripts/redact_text.py
+manifest.txt
