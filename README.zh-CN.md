@@ -9,13 +9,13 @@
 把下面这句话交给 AI 执行即可：
 
 ```text
-请读取本仓库的 SKILL.md，并使用 ai-coding-audit Skill 对当前项目的 AI Coding 工作流进行只读审计：不得使用私有记忆或未提供的历史聊天，必须先探索证据、使用 subagent 式分工、脱敏敏感信息、区分事实/推断/缺失证据，最后输出审计报告和可执行改进建议。
+请访问 https://github.com/HoshinoStarry/ai-coding-audit-skill 并读取其中的 SKILL.md，使用 ai-coding-audit Skill 对当前项目的 AI Coding 工作流进行只读审计：不得使用私有记忆或未提供的历史聊天，必须先探索证据、使用 subagent 式分工、脱敏敏感信息、区分事实/推断/缺失证据，最后输出审计报告和可执行改进建议。
 ```
 
 更短版：
 
 ```text
-读取 SKILL.md，按 ai-coding-audit Skill 只读审计当前项目的 AI Coding 工作流，先收集证据和 subagent 分工，再输出脱敏审计报告。
+访问 https://github.com/HoshinoStarry/ai-coding-audit-skill，读取 SKILL.md，按 ai-coding-audit Skill 只读审计当前项目的 AI Coding 工作流，先收集证据和 subagent 分工，再输出脱敏审计报告。
 ```
 
 ## 它审计什么
@@ -47,6 +47,7 @@
 SKILL.md
 README.md
 README.zh-CN.md
+ONE_LINE_PROMPT.zh-CN.txt
 templates/audit_request_prompt.md
 templates/audit_request_prompt.zh-CN.md
 templates/audit_report_template.md
@@ -64,7 +65,7 @@ manifest.txt
 让一个有代码仓库访问能力的 AI Agent 执行：
 
 ```text
-请读取本仓库的 SKILL.md，并使用 ai-coding-audit Skill 对当前项目的 AI Coding 工作流进行只读审计。
+请访问 https://github.com/HoshinoStarry/ai-coding-audit-skill 并读取其中的 SKILL.md，使用 ai-coding-audit Skill 对当前项目的 AI Coding 工作流进行只读审计。
 
 重要范围规则：
 不要使用私有助手记忆、未提供的历史聊天、用户画像记忆或任何未在当前任务中显式提供的背景。只能使用当前仓库文件、用户提供的 transcript、工具上下文文件、git 状态、计划文件、Prompt 文件和可访问的本地配置作为证据。
