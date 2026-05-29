@@ -1,8 +1,22 @@
 # AI Coding Audit Skill
 
+[中文说明](README.zh-CN.md) | [One-line Chinese prompt](ONE_LINE_PROMPT.zh-CN.txt)
+
 A generic, evidence-driven skill for auditing AI Coding, Agentic Coding, Vibe Coding, coding-agent workflow safety, prompt quality, patch discipline, verification gates, and tool-context hygiene.
 
 This package is intentionally generic. It does **not** depend on any specific user's private memory, prior chat history, identity, project, or assistant-side stored context. It audits only evidence explicitly available to the running agent.
+
+## One-line instruction
+
+```text
+Read SKILL.md and use the ai-coding-audit skill to perform a read-only audit of this project's AI Coding workflow: do not use private memory or unstated prior chat history, first collect evidence, use subagent-style exploration, redact sensitive information, separate fact/inference/missing evidence, then output an audit report and actionable improvement plan.
+```
+
+## 中文一句话指令
+
+```text
+请读取本仓库的 SKILL.md，并使用 ai-coding-audit Skill 对当前项目的 AI Coding 工作流进行只读审计：不得使用私有记忆或未提供的历史聊天，必须先探索证据、使用 subagent 式分工、脱敏敏感信息、区分事实/推断/缺失证据，最后输出审计报告和可执行改进建议。
+```
 
 ## What it audits
 
@@ -31,7 +45,11 @@ This package is intentionally generic. It does **not** depend on any specific us
 
 ```text
 SKILL.md
+README.md
+README.zh-CN.md
+ONE_LINE_PROMPT.zh-CN.txt
 templates/audit_request_prompt.md
+templates/audit_request_prompt.zh-CN.md
 templates/audit_report_template.md
 templates/subagent_prompts.md
 templates/patch_gate_prompts.md
@@ -63,6 +81,7 @@ Before writing the final report:
 ## Optional context inventory script
 
 ```bash
+chmod +x scripts/collect_ai_coding_context.sh scripts/redact_text.py
 ./scripts/collect_ai_coding_context.sh . ai-coding-context-inventory.md
 ```
 
