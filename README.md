@@ -9,13 +9,13 @@ This package is intentionally generic. It does **not** depend on any specific us
 ## One-line instruction
 
 ```text
-Read SKILL.md and use the ai-coding-audit skill to perform a read-only audit of this project's AI Coding workflow: do not use private memory or unstated prior chat history, first collect evidence, use subagent-style exploration, redact sensitive information, separate fact/inference/missing evidence, then output an audit report and actionable improvement plan.
+Visit https://github.com/HoshinoStarry/ai-coding-audit-skill and read SKILL.md, then use the ai-coding-audit skill to perform a read-only audit of this project's AI Coding workflow: do not use private memory or unstated prior chat history, first collect evidence, use subagent-style exploration, redact sensitive information, separate fact/inference/missing evidence, then output an audit report and actionable improvement plan.
 ```
 
 ## 中文一句话指令
 
 ```text
-请读取本仓库的 SKILL.md，并使用 ai-coding-audit Skill 对当前项目的 AI Coding 工作流进行只读审计：不得使用私有记忆或未提供的历史聊天，必须先探索证据、使用 subagent 式分工、脱敏敏感信息、区分事实/推断/缺失证据，最后输出审计报告和可执行改进建议。
+请访问 https://github.com/HoshinoStarry/ai-coding-audit-skill 并读取其中的 SKILL.md，使用 ai-coding-audit Skill 对当前项目的 AI Coding 工作流进行只读审计：不得使用私有记忆或未提供的历史聊天，必须先探索证据、使用 subagent 式分工、脱敏敏感信息、区分事实/推断/缺失证据，最后输出审计报告和可执行改进建议。
 ```
 
 ## What it audits
